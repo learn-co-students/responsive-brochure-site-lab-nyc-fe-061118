@@ -1,0 +1,148 @@
+html{
+  background:#5C5C5C;
+}
+
+img{
+  width:100%;
+  max-width:100%;
+}
+
+.navigation {
+  box-sizing:border-box;
+  padding:1px;
+  padding-left:20px;
+  padding-right:20px;
+  background:#302B2F;
+  color: white;
+  width:100%;
+}
+.navigation:after{
+  content:".";
+  display:block;
+  clear:both;
+  visibility: hidden;
+  height:0;
+  line-height:0;
+}
+#mainname{
+  text-align:center;
+  font-size:50px;
+  height:5px;
+  letter-spacing: 2px;
+}
+
+#sidename{
+  text-align:center;
+  font-size:14px;
+   letter-spacing: 2px;
+}
+
+.links{
+  display:block;
+  background:#C9C9C9;
+  border-radius:10px;
+  padding:10px;
+  text-align:center;
+  color:white;
+  letter-spacing: 2px;
+  opacity:0.7;
+  }
+
+  
+.container {
+    position: relative;
+    text-align: center;
+}
+.username{
+    position: absolute;
+    bottom: 50%;
+    left:60%;
+    color:white;
+    font-size:50px;
+    opacity:0.7;
+}
+
+.column{
+  float:left;
+  width:70%;
+  background:#A1A1A1;
+  padding:10px;
+  border-radius:10px;
+}
+
+#foodphoto{
+  float:left;
+  width:50%;
+  margin-right:15px;
+  margin-top:10px;
+}
+
+.title{
+  position:relative;
+  display:inline-block;
+  letter-spacing: 2px;
+  border-top:double;
+  border-bottom:double;
+  color:white;
+  padding:5px;
+  border-radius:10px;
+  left:25%;
+  background:#302B2F;
+  opacity:0.7;
+}
+
+.columntwo{
+  position:absolute;
+  left:72%;
+  width:25%;
+  padding-right:20px;
+  padding-left:10px;
+}
+#final{
+  text-align:center;
+}
+.aboutwander{
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#aboutme{
+  background:#A1A1A1;
+  padding:10px;
+  border-radius: 10px;
+}
+#list{
+ font-size:20px;
+ background:#A1A1A1;
+ border-radius:10px;
+ padding-top:10px;
+ padding-bottom:10px;
+}
+#period{
+  background:#302B2F;
+  display:inline-block;
+  width:100%;
+  color:#302B2F;
+  height:7px;
+  border-radius:20px;
+  }
+#map{
+  padding-left: 20px;
+  opacity:0.7;
+}
+#form{
+  padding-left:15px;
+}
+#contact{
+  text-align:center;
+  color:#C4C4C4;
+  background:#302B2F;
+  padding:10px;
+  border-radius:10px;
+  border-top:double;
+  border-bottom:double;
+}
+#date{
+  letter-spacing: 2px;
+  color:#C4C4C4
+}
