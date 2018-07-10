@@ -1,0 +1,24 @@
+.column {
+  margin: 3px;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 5px solid black;
+}
+
+.hero-image {
+  width: 100px;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
+
+.container {
+  padding: 10px;
+}
