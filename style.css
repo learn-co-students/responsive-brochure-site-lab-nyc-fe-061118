@@ -24,13 +24,14 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
+  height:450px;
 }
 
 .heroine-title > h1 {
   text-align: left;
   padding: 25px;
   color: whitesmoke;
+  text
 }
 
 .container {
