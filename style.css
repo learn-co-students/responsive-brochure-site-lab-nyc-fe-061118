@@ -75,7 +75,7 @@ body {
 .grid-column {
   grid-row: 1;
   background-color: #f5f5f5;
-  min-width: 0
+  min-width: 0;
 }
 
 .grid-column > h1 {
