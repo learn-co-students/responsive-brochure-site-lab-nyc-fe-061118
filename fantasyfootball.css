@@ -1,0 +1,105 @@
+body {
+  background: #374f77;
+  color: white;
+  font-family:'Fjalla One', sans-serif;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+header #leftlogo {
+  float: left;
+}
+
+header #rightlogo {
+  float: right;
+}
+
+ul {
+  text-align: center;
+  list-style: inside;
+  font-size: 2em;
+}
+
+header {
+  font-size: 25px;
+}
+
+nav a {
+  color: white;
+  font-size: 30px;
+  margin: 25px 75px 25px 75px;
+}
+
+nav {
+  padding-bottom: 20px;
+}
+
+.timeline {
+  font-size: 2em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid-item {
+  width: 100%;
+  height: 100%;
+}
+
+.hero {
+  grid-row: 1 / 2;
+  grid-column: 1 / 3;
+  font-size: 2em;
+}
+
+.hero img {
+  border: black solid 5px;
+}
+
+.lower {
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  word-wrap: break-word;
+  border-top: solid white 5px;
+}
+
+.lower h3 {
+  font-size: 2em;
+}
+
+.lower img {
+  border: black solid 3px;
+}
+
+#breakoutstar {
+  border-right: white solid 2px;
+}
+
+#breakoutstar p {
+  padding-right: 5px;
+}
+
+#biggestbust {
+  border-right: white solid 2px;
+}
+
+#biggestbust p {
+  padding-right: 5px;
+  padding-left: 10px;
+}
+
+#deepestsleeper p {
+  padding-left: 15px;
+}
+
+
