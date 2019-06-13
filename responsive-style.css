@@ -1,0 +1,36 @@
+@media only screen and (max-width: 750px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  
+  .gridItem {
+  background-color: #d8d8d8;
+  margin: 10px;
+  }
+  
+  .Hero1 {
+    height: 50px;
+    background-color: #004375;
+  }
+  
+  #hero-content {
+    margin-top: auto;
+    font-size: 0.9em;
+    padding: 3px;
+  }
+  
+  #hero-content h1 {
+    font-size: 1.5em;
+  }
+  
+  .footer {
+    background-color: #004375;
+    height: 400px;
+  }
+  
+  .mobile-layout {
+    height: 200px;
+  }
+}
